@@ -4,6 +4,7 @@ import MainContent from "../components/MainContent";
 import AddKafBtn from "../components/AddKafBtn";
 import AddKafModal from "../components/AddKafModal";
 import classes from "./css/Dashboard.module.css";
+import Footer from "../components/Footer";
 
 export default function Dashboard() {
   const [kafList, setKafList] = useState(kafs);
@@ -36,6 +37,7 @@ export default function Dashboard() {
           />
         )}
       </div>
+      <Footer />
     </div>
   );
 }
