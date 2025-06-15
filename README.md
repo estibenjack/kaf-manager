@@ -1,6 +1,6 @@
 # KAFtrack
 
-Say goodbye to messy Excel sheets and hello to **KAFtrack** - your sleek, simple and fun way to track Knowledge Article Feedback (KAF) cases! No more excel sheets. With KAFtrack, you can add, view and update your cases quickly and effortlessly — all in one place.
+Say goodbye to messy Excel sheets and hello to **KAFtrack** - your sleek, simple and fun way to track Knowledge Article Feedback (KAF) cases! No more excel sheets. With KAFtrack, you can add, view and update your cases quickly and effortlessly - all in one place.
 
 ---
 
