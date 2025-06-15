@@ -1,0 +1,42 @@
+export const kafs = [
+  {
+    id: "KAF-000001",
+    dateAssigned: "2025-06-01",
+    articleTitle: "Mindbody app FAQ",
+    url: "https://support.mindbodyonline.com/s/article/What-do-I-do-if-a-business-is-not-responsive?language=en_US",
+    requests: "Update screenshots",
+    status: "in-progress",
+  },
+  {
+    id: "KAF-000004",
+    dateAssigned: "2025-06-01",
+    articleTitle: "Mindbody app FAQ",
+    url: "https://support.mindbodyonline.com/s/article/What-do-I-do-if-a-business-is-not-responsive?language=en_US",
+    requests: "Update screenshots",
+    status: "in-progress",
+  },
+  {
+    id: "KAF-000005",
+    dateAssigned: "2025-06-01",
+    articleTitle: "Mindbody app FAQ",
+    url: "https://support.mindbodyonline.com/s/article/What-do-I-do-if-a-business-is-not-responsive?language=en_US",
+    requests: "Update screenshots",
+    status: "in-progress",
+  },
+  {
+    id: "KAF-000002",
+    dateAssigned: "2025-06-01",
+    articleTitle: "How to edit the navigation menu on my site",
+    url: "https://support.mindbodyonline.com/s/article/How-to-edit-the-navigation-menu-on-my-site?language=en_US",
+    requests: "Clarify steps in second section",
+    status: "waiting",
+  },
+  {
+    id: "KAF-000003",
+    dateAssigned: "2025-06-01",
+    articleTitle: "Managing contracts from the client Account Details screen",
+    url: "https://support.mindbodyonline.com/s/article/205122068-Managing-contracts-from-the-client-Account-Details-screen?language=en_US",
+    requests: "Remove outdated workflow",
+    status: "completed",
+  },
+];

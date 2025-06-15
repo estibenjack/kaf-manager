@@ -1,0 +1,131 @@
+.container {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  margin: 18px 18px 28px 18px;
+}
+
+.header {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+  /* border-collapse: collapse; */
+  /* table-layout: auto; */
+}
+
+.tableHead {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tableHeader {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-weight: 500;
+  color: #374151;
+  font-size: 0.875rem;
+  /* resize: horizontal; */
+  overflow: auto;
+  position: relative;
+}
+
+/* COLUMNS */
+
+/* KAF ID */
+.tableHeader:nth-child(1) {
+  width: 5%;
+  min-width: 150px;
+}
+
+/* ARTICLE TITLE */
+.tableHeader:nth-child(2) {
+  width: 24%;
+  min-width: 100px;
+}
+
+/* ARTICLE URL */
+.tableHeader:nth-child(3) {
+  width: 20%;
+  min-width: 150px;
+}
+
+/* REQUESTS */
+.tableHeader:nth-child(4) {
+  width: 20%;
+  min-width: 120px;
+}
+
+.tableHeader:nth-child(5) {
+  width: 12%;
+  min-width: 150px;
+}
+
+/* STATUS */
+.tableHeader:nth-child(6) {
+  width: 5%;
+  min-width: 150px;
+}
+
+/* DATE ASSIGNED */
+.tableRow {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.15s ease;
+}
+
+.tableRow:hover {
+  background-color: #f9fafb;
+}
+
+.tableCell {
+  padding: 0.75rem 1rem;
+  color: #111827;
+}
+
+.tableCellSecondary {
+  padding: 0.75rem 1rem;
+  color: #6b7280;
+}
+
+.tableCellBold {
+  padding: 0.75rem 1rem;
+  color: #111827;
+  font-weight: 500;
+}
+
+.tableCellUrl {
+  padding: 0.75rem 1rem;
+  color: #111827;
+  max-width: 0;
+}
+
+.tableCellUrl a {
+  color: #3e967b;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tableCellUrl a:hover {
+  color: #51c1a0;
+  text-decoration: underline;
+}
+
+.footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem;
+}
