@@ -10,7 +10,7 @@
 
 .modal {
   background: white;
-  padding: 2rem;
+  padding: 1.7rem 1.9rem;
   border-radius: 10px;
   width: 400px;
   max-width: 90%;
@@ -36,25 +36,28 @@ select {
   padding: 0.5rem;
   font-size: 1rem;
   font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid grey;
 }
 
 .requests {
   padding-bottom: 1.5rem;
+  font-family: inherit;
 }
 
 .requests {
   width: 100%;
-  min-height: 100px;
-  max-height: 160px; /* Cap height so modal doesn't stretch */
+  min-height: 90px;
+  max-height: 160px;
   padding: 0.75rem;
-  font-size: 0.9rem;
-  resize: vertical; /* Lets user manually drag to resize */
-  overflow-y: auto; /* Enables vertical scrolling */
-  overflow-x: hidden; /* Prevents sideways scroll */
+  font-size: 1rem;
+  resize: vertical;
+  overflow-y: auto;
+  overflow-x: hidden;
   line-height: 1.4;
-  white-space: pre-wrap; /* Wrap lines normally */
-  /* border: 1px solid #ccc; */
+  white-space: pre-wrap;
   border-radius: 6px;
+  border: 1px solid grey;
   font-family: inherit;
 }
 
@@ -67,5 +70,26 @@ select {
 
 button {
   padding: 0.5rem 1rem;
+  padding: 0.8rem 1.2rem;
   cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  transition: color 0.15s ease;
+}
+
+.addBtn {
+  background: #51c1a0;
+}
+
+.addBtn:hover {
+  background: #469e84;
+}
+
+.cancelBtn {
+  background: #939393;
+}
+
+.cancelBtn:hover {
+  background: #707070;
 }

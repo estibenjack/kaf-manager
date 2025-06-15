@@ -13,9 +13,3 @@ body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
-
-.btn-container {
-  display: flex;
-  justify-content: flex-end;
-  margin: 1rem 3.5rem 0;
-}

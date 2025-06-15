@@ -26,7 +26,7 @@ export default function Dashboard() {
   return (
     <div className={classes.wrapper}>
       <div className={classes.content}>
-        <div className="btn-container">
+        <div className={classes.btnContainer}>
           <AddKafBtn onClick={() => setIsModalOpen(true)} />
         </div>
         <MainContent kafList={kafList} onStatusChange={handleStatusChange} />

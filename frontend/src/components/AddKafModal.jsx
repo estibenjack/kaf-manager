@@ -70,8 +70,14 @@ export default function AddKafModal({ onClose, onAdd }) {
             onChange={handleChange}
           />
           <div className={classes.buttons}>
-            <button type="submit">Add KAF</button>
-            <button type="button" onClick={onClose}>
+            <button type="submit" className={classes.addBtn}>
+              Add KAF
+            </button>
+            <button
+              type="button"
+              onClick={onClose}
+              className={classes.cancelBtn}
+            >
               Cancel
             </button>
           </div>
