@@ -27,7 +27,7 @@ Say goodbye to messy Excel sheets and hello to **KAFtrack** - your sleek, simple
 ### Prerequisites
 
 - Node.js (v14 or later recommended)
-- npm or yarn package manager
+- npm package manager
 
 ### Installation
 
