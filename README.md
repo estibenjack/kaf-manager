@@ -13,18 +13,25 @@ Say goodbye to messy Excel sheets and hello to **KAFtrack** - your sleek, simple
 ---
 
 ## Technologies Used
+**Frontend:**
+- React with Vite
+- CSS Modules
 
-- React
-- Vite
-- CSS Modules for styling
-- (Future) Node.js & Express for backend
-- (Future) MongoDB/PostgreSQL for database
+**Backend:**
+- Java
+- Spring Boot
+- Spring Data JPA
+- Maven
+
+**Database:**
+- PostgreSQL
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
+*Note: These instructions are for frontend only. Full-stack setup guide coming soon.*
 
 - Node.js (v14 or later recommended)
 - npm package manager
@@ -62,17 +69,50 @@ Say goodbye to messy Excel sheets and hello to **KAFtrack** - your sleek, simple
 
 ---
 
-## Folder structure
+## Project structure
 
+**Backend (Spring Boot)**
 ```
-FRONTEND
-├── node_modules
-├── public
+backend/
+├── .idea/
+├── src/
+│   └── main/
+│       └── java/
+│           └── com.estibenjack.kaftrack/
+│               ├── controller/
+│               │   └── KafController
+│               ├── entity/
+│               │   └── Kaf
+│               ├── repository/
+│               │   └── KafRepository
+│               ├── service/
+│               │   └── KafService
+│               └── KaftrackApplication
+├── resources/
+│   ├── static/
+│   ├── templates/
+│   ├── application.properties
+│   └── application.properties.example
+├── test/
+├── target/
+├── .gitignore
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── External Libraries
+```
+
+**Frontend (React)**
+```
+frontend/
+├── node_modules/
+├── public/
 │   └── check-double-solid.svg
-├── src
-│   ├── assets
-│   ├── components
-│   │   ├── css
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── css/
 │   │   │   ├── AddKafBtn.module.css
 │   │   │   ├── AddKafModal.module.css
 │   │   │   ├── Footer.module.css
@@ -84,15 +124,15 @@ FRONTEND
 │   │   ├── Header.jsx
 │   │   ├── MainContent.jsx
 │   │   └── TicketTable.jsx
-│   ├── data
+│   ├── data/
 │   │   └── kafs.js
-│   ├── pages
-│   │   ├── css
+│   ├── pages/
+│   │   ├── css/
 │   │   │   └── Dashboard.module.css
 │   │   └── Dashboard.jsx
 │   ├── App.jsx
 │   ├── index.css
-│   ├── main.jsx
+│   └── main.jsx
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
