@@ -6,13 +6,15 @@ import jakarta.persistence.Table;
 
 import java.time.LocalDate;
 
-@Entity
-@Table(name="kafs")
+@Entity // marks this class as a JPA entity that maps to a db table
+@Table(name="kafs") // this specifies the name of the db table that this entity maps to (i.e. kafs)
 public class Kaf {
 
+    // @Id marks this field as the PRIMARY KEY (uniquely identifies each record)
     @Id
     private String id;
 
+    // all other fields are apped to cols in the kafs table
     private LocalDate dateAssigned;
     private String articleTitle;
     private String url;
@@ -20,10 +22,10 @@ public class Kaf {
     private String status;
 
 
-    // no args constructor
+    // no args constructor (required by JPA)
     public Kaf(){}
 
-    // all args constructor
+    // all args constructor (not required, but useful for creating new kaf objs)
     public Kaf(String id, LocalDate dateAssigned, String articleTitle, String url, String requests, String status) {
         this.id = id;
         this.dateAssigned = dateAssigned;
@@ -33,6 +35,8 @@ public class Kaf {
         this.status = status;
     }
 
+    // STANDARD GETTERS AND SETTERS
+    // could alternatively use lombok annotations @Getter and @Setter above the class instead to autogenerate
     public String getId() {
         return id;
     }
